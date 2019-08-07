@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/recipe_img"
+                android:layout_width="@dimen/img_recipe_dim"
+                android:layout_height="@dimen/img_recipe_dim"
+                android:src="@drawable/cake_brownies"
+                />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/recipe_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/nsme_recipe_dim"
+                    android:layout_marginLeft="3dp"
+                    android:text="Nuteela"
+                    android:textStyle="bold"
+                    style="@style/TextAppearance.AppCompat.Headline"
+
+                    />
+                <TextView
+                    android:id="@+id/recipe_survings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="survision"
+                    android:textSize="@dimen/surving_recipe_dim"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginLeft="3dp"
+
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/colorBackgroundGray"/>
+
+</LinearLayout>

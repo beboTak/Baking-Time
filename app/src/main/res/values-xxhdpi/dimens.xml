@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="grid_item_spacing">12dp</dimen>
+    <dimen name="img_recipe_dim">105dp</dimen>
+    <dimen name="nsme_recipe_dim">25dp</dimen>
+    <dimen name="surving_recipe_dim">20dp</dimen>
+</resources>
